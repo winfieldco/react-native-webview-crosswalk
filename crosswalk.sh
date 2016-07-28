@@ -2,7 +2,7 @@
 
 ver="18.48.477.13"
 
-if [ -f "../../android/app/libs/xwalk_core_library-${ver}.aar" ];
+if [ -f "../../android/app/libs/xwalk_core_library-${ver}.aar" ]  && [ -f "libs/xwalk_core_library-${ver}.aar" ];
 then
   echo "Cross walk library already exists, skipping download..."
 else
