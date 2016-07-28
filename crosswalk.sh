@@ -8,3 +8,5 @@ zip -d classes.jar javax\*
 zip -r xwalk_core_library-${ver}.aar classes.jar
 rm -f classes.jar
 mv xwalk_core_library-${ver}.aar libs/
+mkdir -p ../../android/app/libs/
+cp libs/xwalk_core_library-${ver}.aar ../../android/app/libs/
